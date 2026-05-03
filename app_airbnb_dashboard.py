@@ -30,7 +30,7 @@ st.set_page_config(
 APP_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = APP_DIR
 
-MODEL_TABLE_PATH = PROJECT_ROOT / "data" / "processed" / "nyc_airbnb_undervalued_model_table.csv"
+MODEL_TABLE_PATH = PROJECT_ROOT / "data" / "processed" / "dashboard_airbnb_table.csv"
 CANDIDATE_PATH = PROJECT_ROOT / "outputs" / "undervalued_candidates.csv"
 CLUSTER_SUMMARY_PATH = PROJECT_ROOT / "outputs" / "undervalued_cluster_summary.csv"
 MODEL_COMPARISON_PATH = PROJECT_ROOT / "outputs" / "model_comparison.csv"
